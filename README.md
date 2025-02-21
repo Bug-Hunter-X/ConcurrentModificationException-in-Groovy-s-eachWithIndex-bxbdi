@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Groovy when using the `eachWithIndex` method to iterate over a list and modifying the list concurrently. The `ConcurrentModificationException` occurs because the iterator's internal state is invalidated when the list is structurally modified during iteration.  The solution demonstrates a safe way to modify the list during iteration.
